@@ -2,6 +2,6 @@ a = '731671765313306249192251196744265747423553491949349698352031277450632623957
 
 max = 0
 for i in xrange(0,len(a[0:-4])):
-    if int(a[i]) * int(a[i+2]) * int(a[i+2]) * int(a[i+3]) * int(a[i+4]) > max:
+    if int(a[i]) * int(a[i+1]) * int(a[i+2]) * int(a[i+3]) * int(a[i+4]) > max:
         max = int(a[i]) * int(a[i+1]) * int(a[i+2]) * int(a[i+3]) * int(a[i+4])
 print max
